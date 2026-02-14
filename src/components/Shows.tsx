@@ -3,9 +3,9 @@ import { format } from "date-fns";
 
 const Shows = () => {
   return (
-    <section id="shows" className="py-24 md:py-32">
+    <section id="shows" className="py-24 md:py-32" aria-labelledby="shows-heading">
       <div className="container mx-auto px-6">
-        <h2 className="font-display text-5xl md:text-7xl text-primary mb-16">
+        <h2 id="shows-heading" className="font-display text-5xl md:text-7xl text-primary mb-16">
           Tour Dates
         </h2>
 

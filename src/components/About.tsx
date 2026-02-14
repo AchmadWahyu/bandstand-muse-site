@@ -2,9 +2,9 @@ import bandData from "@/lib/data/band.json";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 md:py-32">
+    <section id="about" className="py-24 md:py-32" aria-labelledby="about-heading">
       <div className="container mx-auto px-6">
-        <h2 className="font-display text-5xl md:text-7xl text-primary mb-12">
+        <h2 id="about-heading" className="font-display text-5xl md:text-7xl text-primary mb-12">
           The Band
         </h2>
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed mb-20">

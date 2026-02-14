@@ -11,9 +11,9 @@ const albumImages: Record<string, string> = {
 
 const Discography = () => {
   return (
-    <section id="music" className="py-24 md:py-32 bg-card">
+    <section id="music" className="py-24 md:py-32 bg-card" aria-labelledby="music-heading">
       <div className="container mx-auto px-6">
-        <h2 className="font-display text-5xl md:text-7xl text-primary mb-16">
+        <h2 id="music-heading" className="font-display text-5xl md:text-7xl text-primary mb-16">
           Music
         </h2>
 

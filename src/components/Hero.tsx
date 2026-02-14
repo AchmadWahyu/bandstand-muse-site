@@ -3,11 +3,13 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
+        role="img"
+        aria-label="Echoes of Ember live concert atmosphere"
       />
       {/* Overlay */}
       <div className="absolute inset-0 bg-background/60" />
@@ -20,7 +22,7 @@ const Hero = () => {
         <p className="font-body text-lg md:text-xl text-muted-foreground tracking-widest uppercase mb-10">
           {bandData.tagline}
         </p>
-        <div className="flex items-center justify-center gap-4">
+        <nav aria-label="Primary actions" className="flex items-center justify-center gap-4">
           <a
             href="#music"
             className="inline-block px-8 py-3 bg-primary text-primary-foreground font-body text-sm uppercase tracking-widest hover:opacity-90 transition-opacity"
@@ -33,7 +35,7 @@ const Hero = () => {
           >
             Tour Dates
           </a>
-        </div>
+        </nav>
       </div>
 
       {/* Scroll indicator */}
@@ -41,7 +43,7 @@ const Hero = () => {
         <div className="w-px h-12 bg-muted-foreground/40 mx-auto mb-2" />
         <span className="font-body text-xs uppercase tracking-widest text-muted-foreground">Scroll</span>
       </div>
-    </section>
+    </header>
   );
 };
 
