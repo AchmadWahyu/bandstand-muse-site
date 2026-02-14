@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-15",
+    "venue": "The Crocodile",
+    "city": "Seattle, WA",
+    "ticketUrl": "https://tickets.com",
+    "soldOut": false
+  },
+  {
+    "id": 2,
+    "date": "2026-03-22",
+    "venue": "Doug Fir Lounge",
+    "city": "Portland, OR",
+    "ticketUrl": "https://tickets.com",
+    "soldOut": true
+  },
+  {
+    "id": 3,
+    "date": "2026-04-05",
+    "venue": "The Independent",
+    "city": "San Francisco, CA",
+    "ticketUrl": "https://tickets.com",
+    "soldOut": false
+  },
+  {
+    "id": 4,
+    "date": "2026-04-12",
+    "venue": "The Echo",
+    "city": "Los Angeles, CA",
+    "ticketUrl": "https://tickets.com",
+    "soldOut": false
+  },
+  {
+    "id": 5,
+    "date": "2026-05-01",
+    "venue": "Neumos",
+    "city": "Seattle, WA",
+    "ticketUrl": "https://tickets.com",
+    "soldOut": false
+  }
+]

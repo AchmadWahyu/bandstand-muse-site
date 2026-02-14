@@ -1,0 +1,33 @@
+{
+  "name": "ECHOES OF EMBER",
+  "tagline": "Where Sound Meets Fire",
+  "description": "Born from the underground scene of Portland, Echoes of Ember blends raw alternative rock with atmospheric post-punk, creating a sound that's both haunting and electrifying. Since 2019, the band has been tearing through stages and igniting crowds across the Pacific Northwest and beyond.",
+  "members": [
+    {
+      "name": "Alex Voss",
+      "role": "Vocals / Guitar",
+      "bio": "The voice and vision behind the band. Alex's raw, emotive vocals cut through every track with urgency and depth."
+    },
+    {
+      "name": "Maya Chen",
+      "role": "Lead Guitar",
+      "bio": "A self-taught shredder with a love for atmospheric textures. Maya's riffs are the backbone of the band's signature sound."
+    },
+    {
+      "name": "Jordan Blake",
+      "role": "Bass",
+      "bio": "Laying down the low-end thunder. Jordan brings groove and grit to every performance with relentless energy."
+    },
+    {
+      "name": "Sam Torres",
+      "role": "Drums",
+      "bio": "The heartbeat of Echoes of Ember. Sam's precision and power drive the band's explosive live shows."
+    }
+  ],
+  "socialLinks": {
+    "instagram": "https://instagram.com",
+    "spotify": "https://spotify.com",
+    "youtube": "https://youtube.com",
+    "twitter": "https://twitter.com"
+  }
+}
