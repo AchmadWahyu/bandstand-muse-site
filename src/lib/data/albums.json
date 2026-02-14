@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Burn the Silence",
+    "year": 2024,
+    "type": "Album",
+    "trackCount": 12,
+    "image": "album-1",
+    "streamingUrl": "https://spotify.com",
+    "tracks": [
+      "Ignition",
+      "Hollow Ground",
+      "Veins of Gold",
+      "Ash and Echo",
+      "Deadweight",
+      "Into the Smoke",
+      "Fracture Lines",
+      "Wildfire Heart",
+      "Ghost Frequency",
+      "Undertow",
+      "Scorched Earth",
+      "Embers (Outro)"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Neon Abyss",
+    "year": 2022,
+    "type": "EP",
+    "trackCount": 6,
+    "image": "album-2",
+    "streamingUrl": "https://spotify.com",
+    "tracks": [
+      "Neon Pulse",
+      "Drowning in Blue",
+      "Electric Veil",
+      "Abyssal",
+      "Phantom Lights",
+      "Vanishing Point"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "First Light",
+    "year": 2020,
+    "type": "EP",
+    "trackCount": 5,
+    "image": "album-3",
+    "streamingUrl": "https://spotify.com",
+    "tracks": [
+      "Spark",
+      "Red Horizon",
+      "Collider",
+      "Fade to Static",
+      "First Light"
+    ]
+  }
+]
