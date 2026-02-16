@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Oswald:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,50 +6,50 @@
 
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 40 20% 92%;
+    --background: 0 0% 3%;
+    --foreground: 0 0% 90%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 40 20% 92%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 90%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 90%;
 
-    --primary: 38 92% 50%;
-    --primary-foreground: 0 0% 4%;
+    --primary: 0 85% 45%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 0 0% 14%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 40 10% 55%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 50%;
 
-    --accent: 38 92% 50%;
-    --accent-foreground: 0 0% 4%;
+    --accent: 0 85% 45%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 16%;
-    --input: 0 0% 16%;
-    --ring: 38 92% 50%;
+    --border: 0 30% 15%;
+    --input: 0 30% 15%;
+    --ring: 0 85% 45%;
 
-    --radius: 0.25rem;
+    --radius: 0rem;
 
-    --sidebar-background: 0 0% 6%;
-    --sidebar-foreground: 40 20% 92%;
-    --sidebar-primary: 38 92% 50%;
-    --sidebar-primary-foreground: 0 0% 4%;
-    --sidebar-accent: 0 0% 12%;
-    --sidebar-accent-foreground: 40 20% 92%;
-    --sidebar-border: 0 0% 16%;
-    --sidebar-ring: 38 92% 50%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 85% 45%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 30% 15%;
+    --sidebar-ring: 0 85% 45%;
 
-    --font-display: 'Bebas Neue', sans-serif;
-    --font-body: 'Space Grotesk', sans-serif;
+    --font-display: 'Creepster', cursive;
+    --font-body: 'Oswald', sans-serif;
 
-    --gradient-gold: linear-gradient(135deg, hsl(38 92% 50%), hsl(28 90% 40%));
-    --shadow-glow: 0 0 40px hsl(38 92% 50% / 0.15);
+    --gradient-blood: linear-gradient(135deg, hsl(0 85% 45%), hsl(0 90% 25%));
+    --shadow-glow: 0 0 40px hsl(0 85% 45% / 0.2);
   }
 }
 
@@ -65,19 +65,19 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
   }
 }
 
 @layer utilities {
-  .text-gradient-gold {
-    background: var(--gradient-gold);
+  .text-gradient-blood {
+    background: var(--gradient-blood);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .glow-gold {
+  .glow-red {
     box-shadow: var(--shadow-glow);
   }
 }
